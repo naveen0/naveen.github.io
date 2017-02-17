@@ -7,6 +7,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //Disable cut copy paste
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    });
+   
+    //Disable mouse right click
+    $("body").on("contextmenu",function(e){
+        return false;
+    });
+});
+</script>
 <title>Naveen Pateriya</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -39,12 +56,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!-- banner -->
 				<div class="banner">
 					<div class="banner-w3lsinfo">
-						<h2>Quick Portfolio</h2>
+						<h2>Quick tour to my Portfolio</h2>
 						<div class="container">
 							<div class="col-md-4 header-w3left">
 								<img src="images/img1.jpg" alt=""/>
 								<div class="header-imgtext-w3ls">
-									<h1>Adeline Doe</h1> 
+									<h1 style="color:yellow">Naveen Pateriya</h1> 
 									<div class="social-wthree-icons">
 										<ul>
 											<li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
@@ -65,13 +82,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<h5>Personal Info</h5>
 										<ul class="address"> 
 											<li> 
-												<b>D.O.B</b> : 23-06-1980 
+												<b>D.O.B</b> : 11-04-1993 
 											</li>
 											<li> 
-												<b>JOB TITLE</b> : Web Designer
+												<b>JOB TITLE</b> : Software Engineer
 											</li>
 											<li> 
-												<b>HOBBIES</b> : Reading and swimming 
+												<b>HOBBIES</b> : Speaking and swimming 
 											</li> 
 										</ul>
 									</div>
@@ -80,13 +97,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<h5>Contact Me</h5>
 										<ul class="address"> 
 											<li> 
-												<b>PHONE</b> : +01 111 222 3333
+												<b>PHONE</b> : +8050753534
 											</li> 
 											<li> 
-												<b>FAX</b> :  +15 555 5678
+												<b>FAX</b> :  +0000000000
 											</li> 
 											<li> 
-												<b>ADDRESS</b> : 756 gb Place,NS Canada 
+												<b>ADDRESS</b> : Bangalore India 
 											</li>
 										</ul>
 									</div>
@@ -95,10 +112,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<h5>Comments</h5>
 										<ul class="address"> 
 											<li> 
-												<b>E-MAIL</b> : <a href="mailto:example@mail.com"> mail@example.com</a>
+												<b>E-MAIL</b> : <a href="mailto:naveen110493@gmail.com">naveen110493@gmail.com</a>
 											</li>
 											<li> 
-												<b>WEBSITE</b> : <a href="#">www.myresume.com</a>
+												<b>WEBSITE</b> : <a href="#">naveen0.github.io</a>
 											</li>
 											<li> 
 												<b>TWITTER</b> : <a href="#">example@twitter</a>
@@ -123,25 +140,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet sem sit amet dolor luctus pellentesque. Pellentesque eleifend tellus at interdum elementum. Nam egestas molestie elit. Vivamus sed accumsan quam, a mollis magna. Nam aliquet eros eget sapien consequat tincidunt at vel nibh. Duis ut turpis mi. Duis nec scelerisque urna, sit amet varius arcu. Aliquam aliquet sapien quis mauris semper suscipit. Maecenas pharetra dapibus posuere. Praesent odio sem, varius quis dolor vel, maximus dapibus mi. Pellentesque mattis mauris neque. Nam aliquam turpis ante, at cursus massa ullamcorper ut. Proin id diam id nisi sagittis pellentesque sed sit amet eros.</p>
 							<div class="skill-agileinfo">
 								<div class="skillbar" data-percent="98">
-									<span class="skillbar-title" style="background: #d35400;">HTML5</span>
+									<span class="skillbar-title" style="background: #d35400;">PHP-Mysql</span>
 									<p class="skillbar-bar" style="background: #e67e22;"></p>
 									<span class="skill-bar-percent"></span>
 								</div>
 								<!-- End Skill Bar --> 
 								<div class="skillbar" data-percent="99">
-									<span class="skillbar-title" style="background: #2980b9;">CSS3</span>
+									<span class="skillbar-title" style="background: #2980b9;">jQuery,Ajax,Angularjs</span>
 									<p class="skillbar-bar" style="background: #3498db;"></p>
 									<span class="skill-bar-percent"></span>
 								</div>
 								<!-- End Skill Bar --> 
 								<div class="skillbar" data-percent="95">
-									<span class="skillbar-title" style="background: #2c3e50;">jQuery</span>
+									<span class="skillbar-title" style="background: #2c3e50;">Bootstrap,CSS</span>
 									<p class="skillbar-bar" style="background: #2c3e50;"></p>
 									<span class="skill-bar-percent"></span>
 								</div>
 								<!-- End Skill Bar --> 
 								<div class="skillbar" data-percent="70">
-									<span class="skillbar-title" style="background: #46465e;">PHP</span>
+									<span class="skillbar-title" style="background: #46465e;">Github Integration,Payment Gateway Integration</span>
 									<p class="skillbar-bar" style="background: #5a68a5;"></p>
 									<span class="skill-bar-percent"></span>
 								</div>
@@ -211,13 +228,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="panel-heading" role="tab" id="headingOne">
 										<h4 class="panel-title asd">
 											<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> 2014-2016
+												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i> 6 July 2015-Till Present
 											</a>
 										</h4>
 									</div>
 									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body panel_text">
-											<h5>Company Name </h5>
+											<h5>Adynor Technologies Pvt Ltd</h5>
 											Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit sed quia.
 										</div>
 									</div>
@@ -232,7 +249,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 										<div class="panel-body panel_text">
-											<h5>Company Name </h5>
+											<h5>Freelancing Projects</h5>
 											Qui dolorem ipsum quia dolor sit amet, neque porro quisquam est, consectetur adipisci velit sed quia.
 										</div>
 									</div>
@@ -379,7 +396,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div> 
 						<!-- footer -->
 						<div class="agile-footer"> 
-							<p>© 2017 Simple CV. All rights reserved | Design by  <a href="http://w3layouts.com/" target="_blank">w3layouts</a> </p>
+							<p>© 2017 Naveen Pateriya. All rights reserved <a style="color:black" href="http://w3layouts.com/" target="_blank">w3layouts</a> </p>
 						</div>
 						<!-- //footer --> 
 					</div>
